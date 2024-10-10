@@ -1,0 +1,428 @@
+
+.containerrrrr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*FIGURAS DO CONTATO///////////////////////////////////////////////*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+figure.container {
+    text-align: center;
+    margin: 0;
+    width: 200px; /* Ajuste a largura conforme necessário */
+}
+
+figcaption {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+
+/*nav/////////////////////////////////////////////////*/
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-right {
+    text-align: end;
+    display: flex;
+    justify-content: center;
+}
+
+
+header img:first-of-type {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.header-right a {
+    color: black;
+    text-decoration: none;
+    margin-left: 0;
+    font-size: 20px;
+}
+
+header {
+
+    background-color: #A16C48;
+
+}
+
+html {
+
+    background-color: #A16C48;
+
+}
+
+
+/* Estilos para links /////////////////////////////////////*/
+
+img:hover {
+
+    background-color: #A16C48;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+.ima {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: #A16C48;
+}
+
+
+th{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+/* Estilos para o corpo principal da página ///////////////////////////*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #A16C48;
+    color: black;
+}
+
+/*table/////////////////////////////////////////////*/
+
+table,tr,th,tbody,thead,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+div {
+
+    display: grid;
+    align-items: center;
+    margin-top: 20px;
+}
+
+table {
+
+    color: black;
+    margin-top: 20px;
+}
+
+tr {
+    color: black;
+    font-size: 20px;
+}
+
+
+/* Estilos para cabeçalhos ////////////////////////////////////*/
+h1 {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h4 {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.video-alpargata {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/*Formulario//////////////////////////////////////////////*/
+form {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+input[type="submit"] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+    text-align: left;
+}
+
+
+
+
+
+
+        footer {
+            background-color: #9E431A; 
+            color: black; 
+            padding: 20px; 
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #FFD700; 
+            text-decoration: none; 
+            margin: 0 10px; 
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+        }
+
+
+
+
+
+
+
+        
+
+
+.carousel-container {
+    position: relative;
+    width: 80%;  
+    max-width: 600px; 
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.carousel-item {
+    min-width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel-item img {
+    max-width: 100%;  
+    max-height: 300px; 
+}
+
+
+.nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.nav label {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav label:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+#slide1:checked ~ .carousel {
+    transform: translateX(0);
+}
+
+#slide2:checked ~ .carousel {
+    transform: translateX(-100%);
+}
+
+#slide3:checked ~ .carousel {
+    transform: translateX(-200%);
+}
+
+#slide4:checked ~ .carousel {
+    transform: translateX(-300%);
+}
+
+#slide5:checked ~ .carousel {
+    transform: translateX(-400%);
+}
+
+#slide6:checked ~ .carousel {
+    transform: translateX(-500%);
+}
+
+#slide7:checked ~ .carousel {
+    transform: translateX(-600%);
+}
+
+#slide8:checked ~ .carousel {
+    transform: translateX(-700%);
+}
+
+#slide9:checked ~ .carousel {
+    transform: translateX(-800%);
+}
+
+#slide10:checked ~ .carousel {
+    transform: translateX(-900%);
+}
+
+#slide11:checked ~ .carousel {
+    transform: translateX(-1000%);
+}
+
+#slide12:checked ~ .carousel {
+    transform: translateX(-1100%);
+}
+
+#slide13:checked ~ .carousel {
+    transform: translateX(-1200%);
+}
+
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dots label {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dots label:hover {
+    background-color: #717171;
+}
+
+input[type="radio"]:checked + .dots label {
+    background-color: #717171;
+}
+
+
+
+
+
+.fixed-menu {
+    position: sticky;
+    top: 0;
+    background-color: #9E431A;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.fixed-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.fixed-menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.fixed-menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
